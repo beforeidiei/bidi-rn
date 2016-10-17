@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {
   StyleSheet,
+  StatusBar,
   Text,
   View,
   Alert,
@@ -51,7 +52,6 @@ const styles = StyleSheet.create({
 
 class OnBoard extends Component {
 
-
   onSkipBtnHandle = (index) => {
     //Alert.alert('Skip');
     Actions.gray();
@@ -68,14 +68,16 @@ class OnBoard extends Component {
   }
 
   render() {
+    StatusBar.setBarStyle('light-content', true);
     return (
+      <View>
       <AppIntro
         onNextBtnClick={this.nextBtnHandle}
         onDoneBtnClick={this.doneBtnHandle}
         onSkipBtnClick={this.onSkipBtnHandle}
         onSlideChange={this.onSlideChangeHandle}
       >
-      <View style={[styles.slide,{ backgroundColor: '#fa931d' }]}>
+      <View style={[styles.slide,{ backgroundColor: '#430076' }]}>
         <View style={styles.header}>
           <View>
             <Image style={{ width: 75 * 2.5, height: 63 * 2.5 }} source={require('./img/1/c1.png')} />
@@ -110,7 +112,7 @@ class OnBoard extends Component {
           <View level={15}><Text style={styles.description}>Welcome to the tour!</Text></View>
         </View>
       </View>
-      <View style={[styles.slide, { backgroundColor: '#a4b602' }]}>
+      <View style={[styles.slide, { backgroundColor: '#430076' }]}>
         <View style={styles.header}>
           <View>
             <Image style={{ width: 75 * 2.5, height: 63 * 2.5 }} source={require('./img/2/1.png')} />
@@ -137,7 +139,7 @@ class OnBoard extends Component {
           <View level={15}><Text style={styles.description}>Anything is possible!</Text></View>
         </View>
       </View>
-      <View style={[styles.slide, { backgroundColor: '#406E9F' }]}>
+      <View style={[styles.slide, { backgroundColor: '#430076' }]}>
         <View style={styles.header}>
           <View style={{
             position: 'absolute',
@@ -172,7 +174,7 @@ class OnBoard extends Component {
           <View level={15}><Text style={styles.description}>...and more and more!</Text></View>
         </View>
       </View>
-      <View style={[styles.slide, { backgroundColor: '#DB4302' }]}>
+      <View style={[styles.slide, { backgroundColor: '#430076' }]}>
         <View style={styles.header}>
           <View style={{
             position: 'absolute',
@@ -200,6 +202,7 @@ class OnBoard extends Component {
         </View>
       </View>
       </AppIntro>
+      </View>
     );
   }
 }

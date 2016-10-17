@@ -11,7 +11,7 @@ const GoldScreen = () => {
     <View style={styles.container}>
       <Text
         style={styles.welcome}
-        onPress={() => Actions.one()}
+        onPress={() => Actions.black()}
       >
         Gold Screen
       </Text>
