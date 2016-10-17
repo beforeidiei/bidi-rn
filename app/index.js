@@ -43,7 +43,7 @@ const App = () => {
           </Scene>
 
           {/* Tab and it's scenes */}
-          <Scene key="tour" title="TOUR" icon={TabIcon}>
+          <Scene key="tour" title="TOUR" icon={TabIcon} initial={true}>
             <Scene
               key="OnBoard"
               component={OnBoard}
