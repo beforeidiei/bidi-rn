@@ -1825,8 +1825,8 @@ figures@^1.3.5:
     object-assign "^4.1.0"
 
 file-type@^3.1.0:
-  version "3.8.0"
-  resolved "https://registry.yarnpkg.com/file-type/-/file-type-3.8.0.tgz#bcadf6a8f624ebe4a10e5ad26727b6b93f16d78d"
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/file-type/-/file-type-3.9.0.tgz#257a078384d1db8087bc449d107d52a52672b9e9"
 
 filename-regex@^2.0.0:
   version "2.0.0"
@@ -3436,8 +3436,8 @@ mute-stream@0.0.5:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
 
 native-base@^0.5.9:
-  version "0.5.9"
-  resolved "https://registry.yarnpkg.com/native-base/-/native-base-0.5.9.tgz#b4b658204aa24c50346200fdb06cf0e7924385f7"
+  version "0.5.11"
+  resolved "https://registry.yarnpkg.com/native-base/-/native-base-0.5.11.tgz#2baa2c055b45b762e6c72b7fceef36e0d6b0dd91"
   dependencies:
     clamp "^1.0.1"
     color "~0.11.1"
@@ -3864,7 +3864,7 @@ react-native-easy-grid@0.1.5:
   dependencies:
     lodash "^4.11.1"
 
-react-native-elements:
+react-native-elements@^0.6.2:
   version "0.6.2"
   resolved "https://registry.yarnpkg.com/react-native-elements/-/react-native-elements-0.6.2.tgz#5c66ec53090425a74c341ddc11ce660b17e420f6"
   dependencies:
@@ -3887,7 +3887,7 @@ react-native-keyboard-aware-scroll-view@0.2.0:
   dependencies:
     react-timer-mixin "^0.13.3"
 
-react-native-router-flux:
+react-native-router-flux@^3.36.0:
   version "3.36.0"
   resolved "https://registry.yarnpkg.com/react-native-router-flux/-/react-native-router-flux-3.36.0.tgz#2f36360d684b5e546ecee2d2ee1baccc8e1dd74f"
   dependencies:
@@ -3911,6 +3911,13 @@ react-native-tab-navigator@^0.3.3:
 react-native-tabs@^1.0.9:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/react-native-tabs/-/react-native-tabs-1.0.9.tgz#75d3c35e8b5b6970869eab282372cb32e2a782cd"
+
+react-native-vector-icons@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/react-native-vector-icons/-/react-native-vector-icons-2.1.0.tgz#37ff40e2fc753a56624846e7471282b818b92edc"
+  dependencies:
+    lodash "^4.0.0"
+    yargs "^4.7.0"
 
 react-native-vector-icons@2.0.x:
   version "2.0.3"
@@ -4411,8 +4418,8 @@ sntp@1.x.x:
     hoek "2.x.x"
 
 source-map-support@^0.4.2:
-  version "0.4.4"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.4.tgz#0df5765a05a560c91bc8f8641cf79f2affc0322e"
+  version "0.4.5"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.5.tgz#4438df4219e1b3c7feb674614b4c67f9722db1e4"
   dependencies:
     source-map "^0.5.3"
 
